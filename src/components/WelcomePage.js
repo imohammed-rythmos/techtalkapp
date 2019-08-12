@@ -57,7 +57,7 @@ const WelcomePage = inject("WelcomePageStore")(
         let Content = this.DisplayWelcomePage;
         return (
           <>
-            {WelcomePageStore.gotData ? <Content /> : "Loading data"}
+            {WelcomePageStore.gotData ? <Content /> : "Loading data!"}
           </>
         );
       }
